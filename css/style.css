@@ -21,7 +21,7 @@ body{
 /* ------------ header ------------ */
 .header{
     width: 380px;
-    height:150px;
+    height:180px;
     background-image: url('../img/bg2.jpg');
     background-size: 100% 200%;
     background-repeat: no-repeat;
@@ -44,12 +44,21 @@ body{
     /* text-shadow: 1px 3px 5px #000; */
     transform: rotate(45deg);
 }
-#date{
+#date {
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     left: 10px;
     color: #FFF;
     font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#time {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: #FFF;
+    font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
 }
 
